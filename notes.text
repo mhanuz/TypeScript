@@ -1,0 +1,37 @@
+tpescript is a programming language
+updated version of javascript
+used in enterprise application development 
+superset of javascript that has been created by microsoft
+allow static strict type
+extra features - enums, tuples, interfaces, generics
+support modern features
+typescript is a compiler older javascript(vanila) te convert kore.
+.net harmony background
+
+what's wrong in javascript:
+not suitable for large application
+lacks strong typing
+only error during runtime 
+suffers type coericion
+
+benefits of typescript
+tpescript == javascript
+compiles to javascript - run anywhere
+familira with oo programming
+new features work everywhere
+
+tsc = typescript compiler
+
+tsc --init : project setup 
+https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+tsconfig.json file in a directory indicates that the directory is the root of a TypeScript project. The tsconfig.json file specifies the root files and the compiler options required to compile the project.
+
+./ -- root directory
+
+tsc -w : watch korbe file e update asle se js file kew update korbe
+
+typescript is able to get the type of data during the declare and define at a time;  but not declaration  
+you can push an element into an array if this type of data is available in the array 
+
+undefined is value
+void : nothing, absence 
