@@ -8,11 +8,7 @@
 //     console.log(userData.age); 
 
 // }
-
 // userDetail(5, {name: "Hasan", age:35})
-
-
-
 
 
 let calculation: (num1: number, num2: number, operationType: string)=> number | string;
