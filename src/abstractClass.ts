@@ -6,7 +6,7 @@
 abstract class CricketerInfo {
     constructor(public firstName: string, public lastName: string) {
     }
-    abstract getSalary(): number;
+    abstract getSalary(): number; // abstract class does not contain abstract method function body
     get fullName(): string {
         return `${this.firstName} ${this.lastName}`;
     }
