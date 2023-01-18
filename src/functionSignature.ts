@@ -1,14 +1,14 @@
-// type idValue = number | string
-// type objValue = {name: string, age: number}
-// let userDetail: (id: idValue, userInformation: objValue) => void;
+type idValue = number | string
+type objValue = {name: string, age: number}
+let userDetail: (id: idValue, userInformation: objValue) => void;
 
-// userDetail = (id: idValue, userData: objValue)=>{
-//     console.log(id);
-//     console.log(userData.name);
-//     console.log(userData.age); 
+userDetail = (id: idValue, userData: objValue)=>{
+    console.log(id);
+    console.log(userData.name);
+    console.log(userData.age); 
 
-// }
-// userDetail(5, {name: "Hasan", age:35})
+}
+userDetail(5, {name: "Hasan", age:35})
 
 
 let calculation: (num1: number, num2: number, operationType: string)=> number | string;

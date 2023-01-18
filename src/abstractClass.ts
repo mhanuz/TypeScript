@@ -1,4 +1,4 @@
-// when we want to give a specific implementation of our methods
+// abstract method should be in all the sub classes
 // An abstract class typically includes one or more abstract methods or property declarations
 // The class which extends the abstract class must define all the abstract methods.
 // abstraction: hiding the unnecessary details from the users.
