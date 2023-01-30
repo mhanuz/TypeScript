@@ -1,6 +1,6 @@
 type idValue = number | string
 type objValue = {name: string, age: number}
-let userDetail: (id: idValue, userInformation: objValue) => void;
+let userDetail: (id: idValue, userInformation: objValue) => void; // Function signature
 
 userDetail = (id: idValue, userData: objValue)=>{
     console.log(id);
